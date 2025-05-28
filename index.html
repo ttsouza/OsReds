@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Reds</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+</head>
+<body>
+
+    <header>
+        <div class="esquerdo">
+            <div class="titulo">
+                <h1>OSREDS</h1>
+            </div>
+            <div class="cta">
+                <a href="">O melhor time já existente!</a>
+            </div>
+        </div>
+        <div class="direito">
+            <img src="./img/foto_home1.png" alt="Os Reds">
+        </div>
+    </header>
+
+    <section class="contato">
+        <div class="esquerda">
+
+            <img src="./img/img_action.png" alt="">
+
+        </div>
+        <div class="direita">
+
+            <div>
+                <a href="https://www.osreds.com.br/ra" target="_blank">
+                    <img src="./img/ra.svg" alt="RA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REALIDADE AUMENTADA DOS REDS
+                </a>
+                <a href="https://www.instagram.com/osreds2025/" target="_blank">
+                    <img src="./img/insta.svg" alt="Instagram">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTAGRAM: @OSREDS2025
+                </a>
+                <a href="./cardapio.html" target="_blank">
+                    <img src="./img/card.svg" alt="Cardápio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CARDÁPIO DA FESTA JUNINA
+                </a>
+           </div>
+
+        </div>
+    </section>
+
+    <section class="lider">
+
+        <div class="titulo">
+            <h1>QUEM FAZ ACONTECER?</h1>
+        </div>
+        <div class="lideres">
+
+            <div>
+                <div class="foto">
+                    <img src="./img/1.png" alt="Presidente">
+                </div>
+                <div class="dados">
+                    <div id="titulo">PRESIDENTE</div>
+                    <div><p>Tiago</p></div>
+                    <div><p>@_tiago_t_</p></div>
+                </div>
+            </div>
+            <div id="dois">
+                <div class="foto">
+                    <img src="./img/2.png" alt="Presidente">
+                </div>
+                <div class="dados">
+                    <div id="titulo">PRESIDENTE</div>
+                    <div><p>Henderson</p></div>
+                    <div><p>@enghenderson</p></div>
+                </div>
+            </div>
+            <div>
+                <div class="foto">
+                   <img src="./img/3.png" alt="Líder"> 
+                </div>
+                <div class="dados">
+                    <div id="titulo">LÍDER</div>
+                    <div><p>Mika</p></div>
+                    <div><p>@mikapinnheiro</p></div>
+                </div>
+            </div>
+            <div id="dois">
+                <div class="foto">
+                    <img src="./img/4.png" alt="Líder">
+                </div>
+                <div class="dados">
+                    <div id="titulo">LÍDER</div>
+                    <div><p>Zanit</p></div>
+                    <div><p>@zanit_gabyy</p></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="patrocinadores">
+        <div class="banner"></div>
+        <div>
+            <div class="h1">
+                <h1>NOSSOS PARCEIROS</h1>
+            </div>
+
+            <div class="patroci">
+
+                <div class="mySlides fade">
+                <img src="./img/p1.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p2.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p3.png">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./img/p4.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p5.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p6.png">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./img/p7.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p8.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p9.png">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./img/p16.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p11.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p12.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p13.png">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="./img/p14.png">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="suporte">
+        <div class="title">
+            <h1>CASO QUEIRA NOS AJUDAR</h1>
+            <h1>NESSA AÇÃO SOLIDÁRIA</h1>
+        </div>
+        <div>
+            <p>CLICAR NO BOTÃO ABAIXO</p>
+            <a href="https://wa.me/+5512981794790">FALAR COM O SUPORTE</a>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div>
+            <a href="https://www.ttechcode.com.br">Desenvolvido por <img src="./img/logo_preto (2).png" alt="T-TechCode"></a>
+        </div>
+        
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+</script>
+    
+</body>
+</html>

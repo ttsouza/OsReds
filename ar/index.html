@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Os Reds - Realidade Aumentada</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/x-icon" href="./model/logo.png">
+
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://www.kge.eti.br/profkge/ar/lib/aframe-ar.js"></script>
+		<script src="gesture-detector.js"></script>
+		<script src="gesture-handler.js"></script>
+	</head>
+
+  	<body>
+		<a-scene
+			arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'
+			embedded
+			renderer="logarithmicDepthBuffer: true;"
+			vr-mode-ui="enabled: false"
+			gesture-detector
+			id="scene">
+
+			<a-assets>
+				<a-asset-item
+					id="novo-modelo"  
+					src="model/MODEL.gltf"> <!-- Verficar se o caminho está correto -->
+				</a-asset-item>
+			</a-assets>
+
+			<a-marker type='barcode' value='39'>
+				<a-entity
+					id="modelo-ar"
+					gltf-model="#novo-modelo"
+					position="0 0 0"
+					rotation="90 180 0"	
+					scale="0.5 0.5 0.5"
+					class="clickable"
+					gesture-handler>
+				</a-entity>
+			</a-marker>
+
+			<a-entity camera></a-entity>
+		</a-scene>
+	</body>
+</html>

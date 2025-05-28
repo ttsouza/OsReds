@@ -1,0 +1,1351 @@
+@font-face {
+    font-family: benzin;
+    src: url(../font/Benzin-Font/Benzin-Bold.ttf);
+}
+
+@font-face {
+    font-family: benzinzinho;
+    src: url(../font/Benzin-Font/Benzin-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+
+    display: flex;
+    width: 100vw;
+
+}
+
+body {
+
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+
+}
+
+header {
+
+    display: flex;
+    width: 100vw;
+    height: 900px;
+    background-image: url("../img/bg_home.png");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+header > .esquerdo {
+
+    display: flex;
+    width: 40vw;
+    height: 900px;
+    flex-direction: column;
+
+}
+
+header > .esquerdo > .titulo {
+
+    display: flex;
+    width: 40vw;
+    height: 512px;
+
+}
+
+header > .esquerdo > .titulo > h1{
+
+    font-size: 98px;
+    font-family: benzin;
+    color: white;
+    margin-top: 360px;
+    margin-left: 50px;
+
+} /**/
+
+
+header > .esquerdo > .cta {
+
+    display: flex;
+    width: 40vw;
+    height: 388px;
+
+}
+
+
+header > .esquerdo > .cta > a {
+
+    display: flex;
+    font-size: 28px;
+    font-family: benzinzinho;
+    color: red;
+    margin-left: 70px;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    justify-content: center;
+    padding-top: 25px;
+    border-radius: 20px;
+    letter-spacing: -1px;
+
+}
+
+header > .direito {
+
+    display: flex;
+    width: 60vw;
+    height: 900px;
+
+}
+
+header > .direito > img {
+
+    display: flex;
+    width: auto;
+    height: 750px;
+    margin-left: 0;
+    position: relative;
+    left: 55px;
+    top: 60px;
+    scale: 1.1;
+
+}
+
+section.contato {
+
+    display: flex;
+    width: 100vw;
+    height: 822px;
+    background-image: url("../img/bg_cta.png");
+    background-position: center ;
+    background-size: cover;
+
+}
+
+section.contato > .esquerda {
+
+    display: flex;
+    width: 53vw;
+    height: 822px;
+
+}
+
+section.contato > .esquerda > img {
+
+    display: flex;
+    height: 800px;
+    width: auto;
+
+}
+
+section.contato > .direita {
+
+    display: flex;
+    width: 47vw;
+    height: 822px;
+
+}
+
+section.contato > .direita > div {
+
+    display: flex;
+    width: 40vw;
+    height: 300px;
+    flex-direction: column;   
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 250px;
+
+}
+
+section.contato > .direita > div > a {
+
+    display: flex;
+    width: 600px;
+    height: 70px;
+    background-color: white;
+    font-family: benzin;
+    font-size: 18px;
+    color: red;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+section.contato > .direita > div > a > img{
+
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+section.lider {
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+
+}
+
+section.lider > .titulo {
+
+    display: flex;
+    width: 100vw;
+    height: 400px;
+
+}
+
+
+section.lider > .titulo > h1 {
+
+    display: flex;
+    font-family: benzin;
+    font-size: 68px;
+    margin: 0 auto;
+    margin-top: 300px;
+    color: #B51F19;
+
+}
+
+section.lider > .lideres {
+
+    display: flex;
+    width: 60vw;
+    height: 1440px;
+    margin: 100px auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 500px;
+
+}
+
+section.lider > .lideres > div {
+
+    display: flex;
+    width: 60vw;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+section.lider > .lideres > div#dois {
+
+    flex-direction: row-reverse;
+
+}
+
+section.lider > .lideres > div > .foto{
+
+    display: flex;
+    width: 40%;
+    height: 300px;
+    padding-left: 20px;
+
+}
+
+section.lider > .lideres > div > .dados{
+
+    display: flex;
+    width: 60%;
+    height: 300px;
+    flex-direction: column;
+
+}
+
+section.lider > .lideres > div > .dados > div {
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+section.lider > .lideres > div > .dados > #titulo {
+
+    font-family: benzin;
+    font-size: 48px;
+    color: #B51F19;
+    align-items: center;
+
+}
+
+section.lider > .lideres > div > .dados > div > p {
+
+    font-family: benzin;
+    font-size: 32px;
+    color: #B51F19;
+    padding-top: 20px;
+
+}
+
+section.patrocinadores {
+
+    display: flex;
+    width: 100vw;
+    height: 1200px;
+    background-color: #B51F19;
+    flex-direction: column;
+
+}
+
+section.patrocinadores > .banner {
+
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    background-image: url("../img/onda.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+section.patrocinadores > div {
+
+    display: flex;
+    width: 100vw;
+    height: 800px;
+    flex-direction: column;
+
+}
+
+section.patrocinadores > div > .h1 {
+
+    display: flex;
+    width: 100vw;
+    height: 200px;
+
+
+}
+
+section.patrocinadores > div > .h1 > h1 {
+
+    display: flex;
+    width: 75vw;
+    font-family: benzin;
+    font-size: 72px;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+section.patrocinadores > div > .patroci {
+
+    display: flex;
+    width: 75vw;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+
+section.patrocinadores > div > .patroci > div > img {
+
+    display: flex;
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 330px;
+
+}
+
+.mySlides {
+    display: none;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+section.suporte {
+
+    display: flex;
+    width: 100vw;
+    height: 970px;
+    flex-direction: column;
+
+}
+
+section.suporte > .title {
+
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+section.suporte > .title > h1 {
+
+    display: flex;
+    width: 75vw;
+    height: 100px;
+    font-family: benzin;
+    font-size: 52px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #B51F19;
+
+}
+
+section.suporte > div  {
+
+    display: flex;
+    width: 75vw;
+    height: 470px;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+section.suporte > div > p {
+
+    display: flex;
+    width: 75vw;
+    height: 30px;
+    font-family: benzin;
+    font-size: 24px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #B51F19;
+    margin-top: 150px;
+
+}
+
+section.suporte > div > a {
+
+    display: flex;
+    width: 40vw;
+    height: 70px;
+    font-family: benzin;
+    font-size: 24px;
+    margin: 0 auto;
+    justify-content: center;
+    color: white;
+    background-color: #B51F19;
+    border-radius: 30px;
+    margin-top: 200px;
+    text-decoration: none;
+    padding-top: 28px;
+    box-shadow: 0 0 100px black;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+footer > div {
+
+    display: flex;
+    width: 20vw;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+footer > div > a {
+
+    display: flex;
+    width: 20vw;
+    height: auto;
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+footer > div > a > img {
+
+    display: flex;
+    width: auto;
+    height: 24px;
+    position: relative;
+    top: -3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    header {
+
+        width: 100vw;
+        flex-direction: column-reverse;
+        height: 700px;
+        background-image: none;
+        background-color: #B51F19;
+
+    }
+
+    header > .esquerdo {
+
+    display: flex;
+    width: 100vw;
+    height: 500px;
+
+
+    }
+
+    header > .esquerdo > .titulo {
+
+        width: 100vw;
+        height: 200px;
+
+    }
+
+    header > .esquerdo > .titulo > h1{
+
+        width: 100vw;
+        font-size: 48px;
+        font-family: benzin;
+        color: white;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+
+    } /**/
+
+
+    header > .esquerdo > .cta {
+
+        display: flex;
+        width: 100vw;
+        height: 100px;
+
+    }
+
+
+    header > .esquerdo > .cta > a {
+
+        font-size: 18px;
+        width: 75vw;
+        height: 50px;
+        margin: 0 auto;
+
+
+    }
+
+    header > .direito {
+
+        display: flex;
+        width: 100vw;
+        height: 400px;
+
+    }
+
+    header > .direito > img {
+
+        display: flex;
+        scale: 0.4;
+        left: -220px;
+        top: -160px;
+
+    }
+
+section.contato {
+
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    background-image: none;
+    background-color: #B51F19;
+
+}
+
+section.contato > .esquerda {
+
+    width: 100vw;
+    height: 550px;
+    
+
+}
+
+section.contato > .esquerda > img {
+
+    scale: 0.5;
+    position: relative;
+    left: -230px;
+    top: -100px;
+
+}
+
+section.contato > .direita {
+
+    width: 100vw;
+    height: 380px;
+
+}
+
+section.contato > .direita > div {
+
+    width: 100vw;
+    height: 300px;
+    padding-top: 30px;
+
+}
+
+section.contato > .direita > div > a {
+
+    width: 75vw;
+    height: 70px;
+    background-color: white;
+    font-family: benzin;
+    font-size: 10px;
+    color: #B51F19;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+
+section.contato > .direita > div > a > img {
+
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+
+}
+
+section.lider {
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+
+}
+
+section.lider > .titulo {
+
+    display: flex;
+    width: 100vw;
+    height: 400px;
+
+}
+
+
+section.lider > .titulo > h1 {
+
+    width: 100vw;
+    font-size: 32px;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+section.lider > .lideres {
+
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 500px;
+
+}
+
+section.lider > .lideres > div {
+
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin-bottom: 300px;
+
+}
+
+section.lider > .lideres > div#dois {
+
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin-bottom: 300px;
+
+}
+
+section.lider > .lideres > div > .foto{
+
+    width: 90vw;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    scale: 0.7;
+    position: relative;
+    left: -60px;
+
+}
+
+section.lider > .lideres > div > .dados{
+
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+section.lider > .lideres > div > .dados > div {
+
+    display: flex;
+    width: 30vw;
+    height: 50px;
+    margin-left: 50px;
+
+}
+
+section.lider > .lideres > div > .dados > #titulo {
+
+    width: 30vw;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+section.lider > .lideres > div > .dados > div > p {
+
+    width: 100vw;
+    font-size: 24px;
+    color: #B51F19;
+    padding-top: 20px;  
+    justify-content: center;
+
+}
+
+
+
+section.patrocinadores {
+
+
+    height: 1200px;
+
+
+}
+
+section.patrocinadores > .banner {
+
+    width: 100vw;
+    height: 400px;
+
+}
+
+section.patrocinadores > div {
+
+    height: 800px;
+
+}
+
+section.patrocinadores > div > .h1 {
+
+    height: 200px;
+
+
+}
+
+section.patrocinadores > div > .h1 > h1 {
+
+
+    width: 80vw;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+section.patrocinadores > div > .patroci {
+
+    display: flex;
+    width: 75vw;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+
+section.patrocinadores > div > .patroci > div > img {
+
+    width: 80vw;
+    left: -7px;
+
+}
+
+section.suporte {
+
+    display: flex;
+    width: 100vw;
+    height: 970px;
+    flex-direction: column;
+
+}
+
+section.suporte > .title {
+
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+section.suporte > .title > h1 {
+
+
+    width: 90vw;
+    height: 100px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+section.suporte > div  {
+
+    display: flex;
+    width: 75vw;
+    height: 470px;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+section.suporte > div > p {
+
+    width: 75vw;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+section.suporte > div > a {
+
+    width: 70vw;
+    height: 70px;   
+    font-size: 14px;
+    margin-top: 200px;
+    padding-top: 35px;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+footer > div {
+
+    display: flex;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+footer > div > a {
+
+    width: 60vw;
+    font-size: 12px;
+    margin-top: 30px;
+    margin: 0 auto;
+
+}
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+
+
+    header {
+
+        width: 100vw;
+        flex-direction: column-reverse;
+        height: 700px;
+        background-image: none;
+        background-color: #B51F19;
+
+    }
+
+    header > .esquerdo {
+
+    display: flex;
+    width: 100vw;
+    height: 500px;
+
+
+    }
+
+    header > .esquerdo > .titulo {
+
+        width: 100vw;
+        height: 200px;
+
+    }
+
+    header > .esquerdo > .titulo > h1{
+
+        width: 100vw;
+        font-size: 48px;
+        font-family: benzin;
+        color: white;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+
+    } /**/
+
+
+    header > .esquerdo > .cta {
+
+        display: flex;
+        width: 100vw;
+        height: 100px;
+
+    }
+
+
+    header > .esquerdo > .cta > a {
+
+        font-size: 18px;
+        width: 75vw;
+        height: 50px;
+        margin: 0 auto;
+
+
+    }
+
+    header > .direito {
+
+        display: flex;
+        width: 100vw;
+        height: 400px;
+
+    }
+
+    header > .direito > img {
+
+        display: flex;
+        scale: 0.4;
+        left: -220px;
+        top: -160px;
+
+    }
+
+section.contato {
+
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    background-image: none;
+    background-color: #B51F19;
+
+}
+
+section.contato > .esquerda {
+
+    width: 100vw;
+    height: 550px;
+    
+
+}
+
+section.contato > .esquerda > img {
+
+    scale: 0.5;
+    position: relative;
+    left: -230px;
+    top: -100px;
+
+}
+
+section.contato > .direita {
+
+    width: 100vw;
+    height: 380px;
+
+}
+
+section.contato > .direita > div {
+
+    width: 100vw;
+    height: 300px;
+    padding-top: 30px;
+
+}
+
+section.contato > .direita > div > a {
+
+    width: 75vw;
+    height: 70px;
+    background-color: white;
+    font-family: benzin;
+    font-size: 10px;
+    color: #B51F19;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+
+section.contato > .direita > div > a > img {
+
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+
+}
+
+section.lider {
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+
+}
+
+section.lider > .titulo {
+
+    display: flex;
+    width: 100vw;
+    height: 400px;
+
+}
+
+
+section.lider > .titulo > h1 {
+
+    width: 100vw;
+    font-size: 32px;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+section.lider > .lideres {
+
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 500px;
+
+}
+
+section.lider > .lideres > div {
+
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin-bottom: 300px;
+
+}
+
+section.lider > .lideres > div#dois {
+
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin-bottom: 300px;
+
+}
+
+section.lider > .lideres > div > .foto{
+
+    width: 90vw;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    scale: 0.7;
+    position: relative;
+    left: -60px;
+
+}
+
+section.lider > .lideres > div > .dados{
+
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+section.lider > .lideres > div > .dados > div {
+
+    display: flex;
+    width: 30vw;
+    height: 50px;
+    margin-left: 50px;
+
+}
+
+section.lider > .lideres > div > .dados > #titulo {
+
+    width: 30vw;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+section.lider > .lideres > div > .dados > div > p {
+
+    width: 100vw;
+    font-size: 24px;
+    color: #B51F19;
+    padding-top: 20px;  
+    justify-content: center;
+
+}
+
+
+
+section.patrocinadores {
+
+
+    height: 1200px;
+
+
+}
+
+section.patrocinadores > .banner {
+
+    width: 100vw;
+    height: 400px;
+
+}
+
+section.patrocinadores > div {
+
+    height: 800px;
+
+}
+
+section.patrocinadores > div > .h1 {
+
+    height: 200px;
+
+
+}
+
+section.patrocinadores > div > .h1 > h1 {
+
+
+    width: 80vw;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+section.patrocinadores > div > .patroci {
+
+    display: flex;
+    width: 75vw;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+
+section.patrocinadores > div > .patroci > div > img {
+
+    width: 80vw;
+    left: -7px;
+
+}
+
+section.suporte {
+
+    display: flex;
+    width: 100vw;
+    height: 970px;
+    flex-direction: column;
+
+}
+
+section.suporte > .title {
+
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+section.suporte > .title > h1 {
+
+
+    width: 90vw;
+    height: 100px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+section.suporte > div  {
+
+    display: flex;
+    width: 75vw;
+    height: 470px;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+section.suporte > div > p {
+
+    width: 75vw;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+section.suporte > div > a {
+
+    width: 70vw;
+    height: 70px;   
+    font-size: 14px;
+    margin-top: 200px;
+    padding-top: 35px;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+footer > div {
+
+    display: flex;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+footer > div > a {
+
+    width: 60vw;
+    font-size: 12px;
+    margin-top: 30px;
+    margin: 0 auto;
+
+}
+
+
+
+    
+}
+
+@media screen and (max-width: 1081px) {
+
+    section.home > .titulo .desc .cta {
+
+        max-width: 1440px;
+    
+    }
+
+    section.sobre > .imagens .conteudo .cta {
+
+        max-width: 1440px;
+
+    }
+
+    section.info > p {
+
+        max-width: 1440px;
+    
+    }
+
+    section.timeline > img {
+
+        max-width: 1440px;
+    
+    }
+
+    section.contato > div .redes .cta {
+
+        max-width: 1440px;
+    
+    }
+
+    footer > div {
+
+        max-width: 1440px;
+    
+    }
+    
+}
