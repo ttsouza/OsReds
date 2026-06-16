@@ -24,7 +24,7 @@ body {
     display: flex;
     width: 100vw;
     height: 825px;
-    background-image: url("../img/bg_cardapio.png");
+    background-image: url("../img/Frame\ 31.png");
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -64,7 +64,7 @@ body > section > div > a {
     text-decoration: none;
     border-radius: 20px;
     margin: auto auto;
-    border: 3px solid black
+    border: 3px solid black;
 
 }
 
