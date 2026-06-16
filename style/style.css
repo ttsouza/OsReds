@@ -20,6 +20,18 @@
 
 }
 
+html, body {
+  overflow-x: hidden;
+  /* Remove a barra no Firefox */
+  scrollbar-width: none; 
+}
+
+/* Remove a barra no Chrome, Safari e Edge */
+html, body::-webkit-scrollbar {
+  display: none;
+}
+
+
 html {
 
     display: flex;
