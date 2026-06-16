@@ -11,12 +11,6 @@
 }
 
 
-/* Remove a barra no Chrome, Safari e Edge */
-html, body::-webkit-scrollbar {
-  display: none;
-}
-
-
 html {
 
     padding: 0;
