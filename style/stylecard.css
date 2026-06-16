@@ -20,7 +20,14 @@ html {
 
 body {
 
+    
+    display: flex;
     width: 100vw;
+    height: 900px;
+    background-image: url("../img/bg_cardapio.png");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
 
 }
 
@@ -57,7 +64,7 @@ body > div > a {
 
 }
 
-body > div > a > img{
+section > div > a > img{
 
     display: flex;
     width: 40px;
@@ -67,46 +74,6 @@ body > div > a > img{
 }
 
 
-
-header {
-
-    display: flex;
-    width: 100vw;
-    height: 900px;
-    background-image: url("../img/bg_cardapio.png");
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-
-}
-
-header > img {
-
-    display: flex;
-    width: 30vw;
-    height: 790px;
-    margin: 0 auto;
-    scale: 0.9;
-
-}
-
-header > a {
-
-    display: flex;
-    width: 40vw;
-    height: 70px;
-    color: #B51F19;
-    background-color: white;
-    border-radius: 20px;
-    border: 3px solid black;
-    margin: 0 auto;
-    font-family: benzin;
-    font-size: 32px;
-    text-decoration: none;
-    justify-content: center;
-    padding-top: 20px;
-
-}
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
 
