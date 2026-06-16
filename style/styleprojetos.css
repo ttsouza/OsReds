@@ -45,6 +45,7 @@ body > section > div {
     width: 800px;
     height: 100%;
     margin: 150px auto;
+    flex-direction: column;
     
 
 }
