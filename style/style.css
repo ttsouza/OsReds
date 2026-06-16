@@ -166,7 +166,7 @@ section.contato > .direita > div {
     height: 300px;
     flex-direction: column;   
     justify-content: space-between;
-    margin: 0 auto;
+    margin: auto auto;
     padding-top: 250px;
 
 }
